@@ -12,7 +12,7 @@ enum class CardType {
 
 fun main() {
     //сумма переводов за текущий месяц
-    val sumTransferCurrentMonth = 60_000.00 * countOfKopecksInRuble
+    val sumTransferCurrentMont = 60_000.00 * countOfKopecksInRuble
     //сумма перевода
     val amountTransfer = 1_000.00 * countOfKopecksInRuble
     //тип карты. Возможные значения: Mastercard, Maestro, Visa, Мир, VK Pay
